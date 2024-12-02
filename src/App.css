@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", ariel, sans-serif;
+  }
+
+  /* .primary_2{
+    background-color: #FBECD7;
+  } */
+}

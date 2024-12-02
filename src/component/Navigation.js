@@ -4,8 +4,8 @@ export default function Navigation() {
       <div className="flex justify-between items-center px-8 py-8 w-full">
         <h1 className="text-2xl">LOGO</h1>
 
-        <div className="flex items-center gap-8">
-          <ul className="flex gap-6 text-lg">
+        <div className="flex items-center gap-[40px]">
+          <ul className="flex gap-10 text-lg">
             <li>Home</li>
             <li>Career</li>
             <li>Blog</li>

@@ -12,7 +12,8 @@ module.exports = {
         text_blue:'#2F327D',
         text_blue1:'#696984',
         text_light:'#464646',
-        icon_blue:'#23BDEE'
+        icon_blue:'#23BDEE',
+        text_skyblue:'#23BDEE',
       },
     },
   },

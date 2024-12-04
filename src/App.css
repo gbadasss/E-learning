@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-
+@layer components {
   * {
     margin: 0px;
     padding: 0px;
@@ -11,43 +10,67 @@
     font-family: "Open Sans", ariel, sans-serif;
   }
 
-
-  .border_b_curve{
+  .border_b_curve {
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
   }
 
-  .border_r80{
+  .border_r80 {
     border-radius: 80px;
   }
 
-  .companyLogo_s{
+  .companyLogo_s {
     width: 130.43px;
     height: 50.49px;
   }
 
-  .companyLogo_s4{
+  .companyLogo_s4 {
     width: 161.32px;
     height: 49.93px;
   }
 
-  .companyLogo_s5{
+  .companyLogo_s5 {
     width: 168.32px;
     height: 54.7px;
   }
 
-  .companyLogo_s3{
+  .companyLogo_s3 {
     width: 151.34px;
     height: 40.71px;
   }
 
-  .companyLogo_s1{
+  .companyLogo_s1 {
     width: 197.37px;
     height: 38.41px;
   }
 
-  .companyLogo_s2{
+  .companyLogo_s2 {
     width: 153.64px;
     height: 46.09px;
+  }
+
+  .grid_top {
+    top: -70px;
+    right: 120px;
+  }
+
+  .boxSh{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .font44{
+    font-size: 44px;
+  }
+
+  .instructor_img{
+    background-image: url('./assets/images/Group 22.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .student_img{
+    background-image: url('./assets/images/Group 23.png');
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
